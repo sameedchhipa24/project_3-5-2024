@@ -20,7 +20,7 @@ const Navbar = () => {
           <Image src={imagelogo} alt="logo" width={65} height={54} />
         </div>
 
-        <ul className="flex gap-20 text-center font-sans text-[#787878]">
+        <ul className="flex gap-20 text-center font-sans text-global">
           {links.map((link, idx) => (
             <li key={idx}>
               <Link href={link.href}>{link.name}</Link>
@@ -28,10 +28,10 @@ const Navbar = () => {
           ))}
         </ul>
         <div className="space-x-4">
-          <Button className="bg-gradient-to-r from-[#1438A8] to-[#567FFF] ">
+          <Button className="bg-gradient">
             Create An Account
           </Button>
-          <Button className="px-14 py-4 text-[#787878]" variant={"outline"}>
+          <Button className="px-14 py-4 text-global border-[#787878]" variant={"outline"}>
             Log in
           </Button>
         </div>

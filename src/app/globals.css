@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-gradient {
+  background-image: linear-gradient(to right, #1438A8, #567FFF);
+}
+
+.text-global{
+  color : #787878
+}
+
+.text-gradient {
+  font-size: 36px;
+  font-weight: 700;
+  background: -webkit-linear-gradient( #1438A8, #567FFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 @layer base {
   :root {
     --background: 0 0% 100%;
