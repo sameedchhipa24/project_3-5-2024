@@ -3,6 +3,7 @@ import coin from "@/../public/assets/USD Coin_3D.png";
 import rightherosection from "@/../public/assets/Frame14537.png";
 import Image from "next/image";
 import { Button } from "./ui/button";
+import Link from "next/link";
 const Herosection = () => {
   return (
     <>
@@ -23,14 +24,18 @@ const Herosection = () => {
               where connectivity meets opportunity. Connect your wallet and
               experience the ease of PoliSwap today.
             </p>
-            <div className="space-x-4 flex items-center">
-              <Button className="bg-gradient">
-                Create An Account
-              </Button>
-              <p>or</p>
-              <Button className="px-14 py-4 text-global border-[#787878]" variant={"outline"}>
-                Log in
-              </Button>
+            <div className="space-x-4 flex items-center relative z-10">
+              <Link href="/Createaccount">
+                <Button className="bg-gradient">Create An Account</Button>
+              </Link>
+              <Link href="/Login">
+                <Button
+                  className="px-14 py-4 text-global border-[#787878]"
+                  variant={"outline"}
+                >
+                  Log in
+                </Button>
+              </Link>
             </div>
           </div>
           {/* Right Side */}
