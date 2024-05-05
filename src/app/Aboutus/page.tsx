@@ -97,7 +97,7 @@ const page = () => {
               provident, similique sunt in culpa qui officia deserunt mollitia
               animi, id est laborum et dolorum fuga.
             </p>
-            <p className="text-global">
+            <p className="text-global pt-4">
               Et harum quidem rerum facilis est et expedita distinctio. Nam
               libero tempore, cum soluta nobis est eligendi optio cumque nihil
               impedit quo minus id quod maxime placeat facere possimus, omnis

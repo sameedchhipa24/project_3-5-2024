@@ -3,17 +3,21 @@
 @tailwind utilities;
 
 .bg-gradient {
-  background-image: linear-gradient(to right, #1438A8, #567FFF);
+  background-image: linear-gradient(to right, #1438A8, #9FB6FF);
 }
 
 .text-global{
   color : #787878
 }
 
+.heading-global{
+  color : #2045B8
+}
+
 .text-gradient {
   font-size: 36px;
   font-weight: 700;
-  background: -webkit-linear-gradient( #1438A8, #516fd3);
+  background: -webkit-linear-gradient( #1438A8, #6778b1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

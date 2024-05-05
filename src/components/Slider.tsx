@@ -9,10 +9,12 @@ const Slider = () => {
     <>
       <div className="max-w-screen-xl mx-auto w-[1350px] h-[600px] bg-gradient rounded-3xl mt-10 ">
         <div className="flex justify-center space-x-4 pt-12 ">
-          <p className="text-4xl text-white text-start">
-            What Other Users are saying about{" "}
-          </p>
-          <p className="text-4xl text-white font-bold">PoliSwap</p>
+          <div className="w-[90%] flex space-x-4">
+            <p className="text-4xl text-white ">
+              What Other Users are saying about{" "}
+            </p>
+            <p className="text-4xl text-white font-bold">PoliSwap</p>
+          </div>
         </div>
         <div className="flex justify-evenly p-10 space-x-2">
           <Cardsfull
@@ -31,7 +33,7 @@ const Slider = () => {
           />
         </div>
       </div>
-      <Image src={Comma} alt="alt" width={100} height={100} className="flex" />
+      <Image src={Comma} alt="alt" width={176} height={149} className="flex" />
     </>
   );
 };

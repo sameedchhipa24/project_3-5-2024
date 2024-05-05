@@ -1,9 +1,13 @@
+import Failure from '@/components/Failure'
 import GetInTouch from '@/components/GetInTouch'
 import React from 'react'
 
 const page = () => {
   return (
-    <div className='py-16'><GetInTouch/></div>
+    <div className='md:py-16'><GetInTouch/>
+ 
+    </div>
+
   )
 }
 
